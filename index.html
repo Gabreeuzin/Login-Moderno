@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark and Light Login</title>
+    <script src="https://kit.fontawesome.com/c54f7f3254.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body id="corpo">
+    <main id="container">
+        <form id="login_form">
+        <div id="form_header">
+            <h1>Login</h1>
+            <i id="mode_icon" class="fa-solid fa-moon"></i>
+        </div>
+        <div id="inputs">
+            <div class="input_box">
+                <label for="name">
+                 Name
+                 <div class="input_field">
+                      <i class="fa-solid fa-user"></i>
+                      <input type="text" id="name" name="name" placeholder="Enter your user">
+
+                 </div>
+                </label>
+            </div>
+            <div class="input_box">
+                <label for="email">
+                E-mail  
+                 <div class="input_field">
+                    <i class="fa-solid fa-envelope"></i>
+                      <input type="email" id="email" name="email" placeholder="Type your e-mail">
+                      
+
+                 </div>
+                </label>
+            </div>
+            <div class="input_box">
+                <label for="password">
+               Password
+                 <div class="input_field">
+                    <i class="fa-solid fa-key"></i>
+                      <input type="password" id="password" name="password" placeholder="Type your password">
+                      
+
+                 </div>
+                </label>
+                    <div id="forgot_password">
+                        <a href="">
+                            Forgot Your Password?
+                        </a>
+                    </div>
+                    <div id="social_media">
+                        <a href="https://br.linkedin.com/" target="_blank">
+                            <img src="./img/icons8-linkedin-circundado-48.png" alt="Logo do LinkedIn"></a>
+
+                        <a href="https://www.facebook.com/login/" target="_blank">
+                            <img src="./img/Facebook.png" alt="Logo do Facebook">
+                        </a>
+            
+                        <a href="https://accounts.google.com/InteractiveLogin/identifier?continue=https%3A%2F%2Fwww.google.com.br%2F&ec=GAZAmgQ&hl=pt-BR&passive=true&ifkv=AWnogHeKOF9em0ttiEjfDyZGNyIeMH4PYDFgIt0R1O8Z60w3EV_QOvBhr3yEPV-Wb_VkC-GTV0AQGQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">
+                            <img src="./img/Google.png" alt="Logo do Google"></a>
+            
+                         <a href="https://github.com/login" target="_blank">
+                             <img src="./img/GitHub.png" alt="Logo do GitHub"></a>
+                    </div>
+                    
+            </div>
+
+        </div>
+        <button type="submit" id="login_button">
+         Login
+        </button>
+        
+       </form>
+    </div>
+    </main>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
